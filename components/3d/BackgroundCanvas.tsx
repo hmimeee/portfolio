@@ -3,19 +3,6 @@ import { Canvas, useFrame } from '@react-three/fiber';
 import { Stars, Sparkles, Float, Icosahedron, Octahedron, Torus, Dodecahedron, Box } from '@react-three/drei';
 import * as THREE from 'three';
 
-declare global {
-  namespace JSX {
-    interface IntrinsicElements {
-      group: any;
-      meshStandardMaterial: any;
-      ambientLight: any;
-      directionalLight: any;
-      pointLight: any;
-      fog: any;
-    }
-  }
-}
-
 const ObjectShape = ({ type, color }: { type: number, color: string }) => {
   const materialProps = {
     color: color,

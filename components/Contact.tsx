@@ -78,7 +78,7 @@ const Contact: React.FC = () => {
                 </Magnetic>
                 <Magnetic>
                   <a href="https://fiverr.com/var_imrn" target="_blank" rel="noopener noreferrer" className="w-14 h-14 border border-neutral-700 rounded-full flex items-center justify-center text-gray-400 hover:text-brand-accent hover:border-brand-accent transition-all bg-neutral-900">
-                    <svg fill="rgb(156 163 175 / var(--tw-text-opacity, 1))" width="24px" height="24px" viewBox="-2.5 -2 24 24" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMinYMin" class="jam jam-fiverr"><path d='M16.25 16.25v-10h-10v-.625c0-1.034.841-1.875 1.875-1.875H10V0H8.125A5.632 5.632 0 0 0 2.5 5.625v.625H0V10h2.5v6.25H0V20h8.75v-3.75h-2.5V10h6.285v6.25H10V20h8.75v-3.75h-2.5z' /><circle cx='14.375' cy='1.875' r='1.875' /></svg>
+                    <svg fill="rgb(156 163 175 / var(--tw-text-opacity, 1))" width="24px" height="24px" viewBox="-2.5 -2 24 24" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMinYMin" className="jam jam-fiverr"><path d='M16.25 16.25v-10h-10v-.625c0-1.034.841-1.875 1.875-1.875H10V0H8.125A5.632 5.632 0 0 0 2.5 5.625v.625H0V10h2.5v6.25H0V20h8.75v-3.75h-2.5V10h6.285v6.25H10V20h8.75v-3.75h-2.5z' /><circle cx='14.375' cy='1.875' r='1.875' /></svg>
                   </a>
                 </Magnetic>
               </div>

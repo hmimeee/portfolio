@@ -3,22 +3,6 @@ import { Canvas, useFrame } from '@react-three/fiber';
 import { Float, Icosahedron, MeshDistortMaterial, Points, PointMaterial } from '@react-three/drei';
 import * as THREE from 'three';
 
-// Add declaration to fix missing intrinsic elements types
-declare global {
-  namespace JSX {
-    interface IntrinsicElements {
-      ambientLight: any;
-      directionalLight: any;
-      pointLight: any;
-      color: any;
-      fog: any;
-      group: any;
-      meshStandardMaterial: any;
-      sphereGeometry: any;
-    }
-  }
-}
-
 const TechObject = () => {
   const groupRef = useRef<THREE.Group>(null);
   

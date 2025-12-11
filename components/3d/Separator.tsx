@@ -3,16 +3,6 @@ import { Canvas, useFrame } from '@react-three/fiber';
 import { Float, Icosahedron, Octahedron, Torus, Dodecahedron, MeshDistortMaterial } from '@react-three/drei';
 import * as THREE from 'three';
 
-declare global {
-  namespace JSX {
-    interface IntrinsicElements {
-      group: any;
-      ambientLight: any;
-      directionalLight: any;
-    }
-  }
-}
-
 const RandomShape = ({ position, rotation, type, scale }: any) => {
   const meshRef = useRef<THREE.Group>(null);
   

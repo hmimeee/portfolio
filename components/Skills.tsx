@@ -1,16 +1,16 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Code2, Server, Globe, Database, Cpu, Layout, Terminal, Layers } from 'lucide-react';
+import { Code2, Server, Globe, Database, Cpu, Layout, Terminal, Layers, Box } from 'lucide-react';
 
 const skills = [
   { name: 'Laravel Framework', icon: <Server />, desc: 'Advanced Architecture, APIs' },
   { name: 'PHP Ecosystem', icon: <Code2 />, desc: 'Modern PHP, Composer' },
+  { name: 'Node.js Ecosystem', icon: <Box />, desc: 'Express, NestJS, NPM' },
   { name: 'Frontend Tech', icon: <Layout />, desc: 'Vue.js, React, Tailwind' },
   { name: 'Database Design', icon: <Database />, desc: 'MySQL, PostgreSQL, Optimization' },
   { name: 'System Design', icon: <Cpu />, desc: 'Scalable Architecture, Microservices' },
   { name: 'Web Technologies', icon: <Globe />, desc: 'REST, GraphQL, WebSockets' },
-  { name: 'DevOps & Tools', icon: <Terminal />, desc: 'Git, Docker, CI/CD' },
-  { name: 'Management', icon: <Layers />, desc: 'Code Review, Team Leadership' },
+  { name: 'DevOps & Tools', icon: <Terminal />, desc: 'Git, Docker, CI/CD' }
 ];
 
 const Skills: React.FC = () => {
@@ -30,7 +30,7 @@ const Skills: React.FC = () => {
           </p>
         </motion.div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {skills.map((skill, index) => (
             <motion.div
               key={index}

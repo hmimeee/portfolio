@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Monitor, Smartphone, Box, Zap } from 'lucide-react';
+import { Monitor, Smartphone, Box, Zap, Server } from 'lucide-react';
 import { Service } from '../types';
 
 const services: Service[] = [
@@ -18,12 +18,18 @@ const services: Service[] = [
   },
   {
     id: 3,
+    title: "Node.js Ecosystem",
+    description: "Architecting high-performance server-side solutions with Node.js and modern JS tools.",
+    icon: "Server"
+  },
+  {
+    id: 4,
     title: "3D Experiences",
     description: "Integrating immersive 3D elements to create memorable interactive web journeys.",
     icon: "Box"
   },
   {
-    id: 4,
+    id: 5,
     title: "Optimization",
     description: "Enhancing website performance and SEO to ensure maximum reach and speed.",
     icon: "Zap"
@@ -44,7 +50,7 @@ const Services: React.FC = () => {
           <h2 className="text-4xl md:text-5xl font-display font-bold text-white mt-4">DIGITAL SOLUTIONS</h2>
         </motion.div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 justify-center">
           {services.map((service, index) => (
             <motion.div
               key={service.id}
@@ -55,11 +61,11 @@ const Services: React.FC = () => {
               className="group p-8 bg-brand-black/50 border border-neutral-800 hover:border-brand-accent transition-all duration-300 flex flex-col items-start h-full backdrop-blur-sm"
             >
               <div className="w-12 h-12 bg-neutral-900 rounded-full flex items-center justify-center text-white mb-6 group-hover:bg-brand-accent group-hover:text-black transition-colors">
-                {/* Simple mapping for icons since we can't dynamic import easily in this snippet */}
                 {service.id === 1 && <Monitor size={20} />}
                 {service.id === 2 && <Smartphone size={20} />}
-                {service.id === 3 && <Box size={20} />}
-                {service.id === 4 && <Zap size={20} />}
+                {service.id === 3 && <Server size={20} />}
+                {service.id === 4 && <Box size={20} />}
+                {service.id === 5 && <Zap size={20} />}
               </div>
               <h3 className="text-xl font-bold text-white mb-4">{service.title}</h3>
               <p className="text-gray-400 text-sm leading-relaxed mb-auto">
