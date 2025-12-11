@@ -48,7 +48,7 @@ const Contact: React.FC = () => {
                 <Mail size={20} />
                 hmimeee@gmail.com
               </a>
-              <a href="tel:01782448244" className="flex items-center gap-4 text-xl hover:text-brand-accent transition-colors">
+              <a href="tel:+8801782448244" className="flex items-center gap-4 text-xl hover:text-brand-accent transition-colors">
                 <Phone size={20} />
                 +8801782448244
               </a>
