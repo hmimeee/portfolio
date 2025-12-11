@@ -4,7 +4,7 @@ import Magnetic from './ui/Magnetic';
 import { Menu, X } from 'lucide-react';
 
 const Navbar: React.FC = () => {
-  const links = ['About', 'Experience', 'Education', 'Skills', 'Projects', 'Contact'];
+  const links = ['About', 'Experience', 'Skills', 'Projects', 'Education', 'Contact'];
   const [isOpen, setIsOpen] = useState(false);
 
   return (

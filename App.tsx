@@ -71,11 +71,11 @@ const App: React.FC = () => {
       <Separator />
       <Experience />
       <Separator />
-      <Education />
-      <Separator />
       <Skills />
       <Separator />
       <Projects />
+      <Separator />
+      <Education />
       <Separator />
       <Contact />
     </main>
