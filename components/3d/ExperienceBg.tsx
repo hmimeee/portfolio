@@ -3,6 +3,17 @@ import { Canvas, useFrame } from '@react-three/fiber';
 import { TorusKnot, MeshDistortMaterial, Float, Points, PointMaterial } from '@react-three/drei';
 import * as THREE from 'three';
 
+declare global {
+  namespace JSX {
+    interface IntrinsicElements {
+      group: any;
+      sphereGeometry: any;
+      ambientLight: any;
+      directionalLight: any;
+    }
+  }
+}
+
 const TechCore = () => {
   const meshRef = useRef<THREE.Mesh>(null);
 

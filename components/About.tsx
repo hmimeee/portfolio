@@ -52,7 +52,7 @@ const About: React.FC = () => {
                 <p className="text-sm uppercase tracking-wider text-gray-500">Years Experience</p>
               </div>
               <div>
-                <h3 className="text-brand-accent font-bold text-4xl md:text-5xl mb-2">10+</h3>
+                <h3 className="text-brand-accent font-bold text-4xl md:text-5xl mb-2">30+</h3>
                 <p className="text-sm uppercase tracking-wider text-gray-500">Major Projects</p>
               </div>
               <div>

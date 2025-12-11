@@ -12,6 +12,9 @@ declare global {
       pointLight: any;
       color: any;
       fog: any;
+      group: any;
+      meshStandardMaterial: any;
+      sphereGeometry: any;
     }
   }
 }

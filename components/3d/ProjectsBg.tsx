@@ -8,6 +8,7 @@ declare global {
     interface IntrinsicElements {
       ambientLight: any;
       directionalLight: any;
+      mesh: any;
     }
   }
 }
