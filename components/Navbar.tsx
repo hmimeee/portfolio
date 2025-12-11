@@ -13,7 +13,7 @@ const Navbar: React.FC = () => {
         initial={{ y: -100 }}
         animate={{ y: 0 }}
         transition={{ duration: 0.8, ease: "circOut" }}
-        className="fixed top-0 left-0 w-full p-6 md:p-10 flex justify-between items-center z-50 mix-blend-difference"
+        className="fixed top-0 left-0 w-full p-6 md:p-10 flex justify-between items-center z-50 bg-brand-black/30 backdrop-blur-md border-b border-white/5"
       >
         <div className="text-2xl font-bold font-display tracking-tighter text-white">
           IMRAN<span className="text-brand-accent">.</span>
