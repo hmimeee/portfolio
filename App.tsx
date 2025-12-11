@@ -39,7 +39,7 @@ const App: React.FC = () => {
         // Only intercept internal hash links
         if (href?.startsWith('#')) {
           e.preventDefault();
-          const element: HTMLElement = document.querySelector(href);
+          const element: HTMLElement|null = document.querySelector(href);
           if (element) {
             lenis.scrollTo(element);
           }
