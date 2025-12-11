@@ -31,7 +31,7 @@ const Contact: React.FC = () => {
             className="mt-10 md:mt-0"
           >
             <Magnetic>
-              <a href="mailto:hmimeee@gmail.com" className="group flex items-center gap-4 bg-white text-black px-8 py-4 rounded-full font-bold text-lg hover:bg-brand-accent transition-colors">
+              <a href="https://wa.me/+8801782448244" className="group flex items-center gap-4 bg-white text-black px-8 py-4 rounded-full font-bold text-lg hover:bg-brand-accent transition-colors">
                 <span>Get in Touch</span>
                 <ArrowRight className="group-hover:translate-x-1 transition-transform" />
               </a>
